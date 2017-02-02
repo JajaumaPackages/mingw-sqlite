@@ -11,7 +11,7 @@
 
 Name:           mingw-%{name1}
 Version:        %{rpmver}
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        MinGW Windows port of sqlite embeddable SQL database engine
 
 License:        Public Domain
@@ -222,6 +222,9 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 3.16.2.0-2
+- Rebuild with GCC 5.4.0
+
 * Sat Jan 07 2017 Thomas Sailer <t.sailer@alumni.ethz.ch> - 3.16.2.0-1
 - update to 3.16.2.0
 
